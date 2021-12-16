@@ -83,14 +83,18 @@ local TextButton_23 = Instance.new("TextButton")
 local UICorner_31 = Instance.new("UICorner")
 local TextButton_24 = Instance.new("TextButton")
 local UICorner_32 = Instance.new("UICorner")
-local Page2 = Instance.new("TextButton")
+local TextButton_25 = Instance.new("TextButton")
 local UICorner_33 = Instance.new("UICorner")
-local Warning = Instance.new("Frame")
+local TextButton_26 = Instance.new("TextButton")
 local UICorner_34 = Instance.new("UICorner")
+local Page2 = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local Warning = Instance.new("Frame")
+local UICorner_36 = Instance.new("UICorner")
 local UIGradient_2 = Instance.new("UIGradient")
 local TextLabel_3 = Instance.new("TextLabel")
 local Frame6_2 = Instance.new("Frame")
-local UICorner_35 = Instance.new("UICorner")
+local UICorner_37 = Instance.new("UICorner")
 local Close_3 = Instance.new("TextButton")
 local Close_4 = Instance.new("TextButton")
 
@@ -104,7 +108,7 @@ UTG.ResetOnSpawn = false
 UTGFrame.Name = "UTGFrame"
 UTGFrame.Parent = UTG
 UTGFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-UTGFrame.Position = UDim2.new(0.159779578, 0, 0.103837132, 0)
+UTGFrame.Position = UDim2.new(0.303948522, 0, 0.0772590637, 0)
 UTGFrame.Size = UDim2.new(0, 427, 0, 508)
 UTGFrame.Visible = false
 
@@ -275,7 +279,7 @@ ScrollingFrame1.Visible = false
 ScrollingFrame1.ScrollBarThickness = 0
 
 TextButton.Parent = ScrollingFrame1
-TextButton.BackgroundColor3 = Color3.fromRGB(255, 55, 58)
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 80, 83)
 TextButton.Position = UDim2.new(0.0347157642, 0, 0.0657051355, 0)
 TextButton.Size = UDim2.new(0, 348, 0, 30)
 TextButton.Font = Enum.Font.SourceSans
@@ -299,7 +303,7 @@ UICorner_9.CornerRadius = UDim.new(0, 30)
 UICorner_9.Parent = TextButton_2
 
 TextButton_3.Parent = ScrollingFrame1
-TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 74, 77)
+TextButton_3.BackgroundColor3 = Color3.fromRGB(187, 254, 255)
 TextButton_3.Position = UDim2.new(0.0374331549, 0, 0.123397425, 0)
 TextButton_3.Size = UDim2.new(0, 348, 0, 30)
 TextButton_3.Font = Enum.Font.SourceSans
@@ -311,7 +315,7 @@ UICorner_10.CornerRadius = UDim.new(0, 30)
 UICorner_10.Parent = TextButton_3
 
 TextButton_4.Parent = ScrollingFrame1
-TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 74, 77)
+TextButton_4.BackgroundColor3 = Color3.fromRGB(187, 254, 255)
 TextButton_4.Position = UDim2.new(0.0347157642, 0, 0.18589744, 0)
 TextButton_4.Size = UDim2.new(0, 348, 0, 30)
 TextButton_4.Font = Enum.Font.SourceSans
@@ -323,7 +327,7 @@ UICorner_11.CornerRadius = UDim.new(0, 30)
 UICorner_11.Parent = TextButton_4
 
 TextButton_5.Parent = ScrollingFrame1
-TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 74, 77)
+TextButton_5.BackgroundColor3 = Color3.fromRGB(178, 255, 142)
 TextButton_5.Position = UDim2.new(0.0374331549, 0, 0.248397425, 0)
 TextButton_5.Size = UDim2.new(0, 348, 0, 30)
 TextButton_5.Font = Enum.Font.SourceSans
@@ -335,7 +339,7 @@ UICorner_12.CornerRadius = UDim.new(0, 30)
 UICorner_12.Parent = TextButton_5
 
 TextButton_6.Parent = ScrollingFrame1
-TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 74, 77)
+TextButton_6.BackgroundColor3 = Color3.fromRGB(178, 255, 142)
 TextButton_6.Position = UDim2.new(0.0320419669, 0, 0.317307681, 0)
 TextButton_6.Size = UDim2.new(0, 348, 0, 30)
 TextButton_6.Font = Enum.Font.SourceSans
@@ -347,7 +351,7 @@ UICorner_13.CornerRadius = UDim.new(0, 30)
 UICorner_13.Parent = TextButton_6
 
 TextButton_7.Parent = ScrollingFrame1
-TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 74, 77)
+TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 127)
 TextButton_7.Position = UDim2.new(0.0319983736, 0, 0.379807651, 0)
 TextButton_7.Size = UDim2.new(0, 348, 0, 30)
 TextButton_7.Font = Enum.Font.SourceSans
@@ -359,7 +363,7 @@ UICorner_14.CornerRadius = UDim.new(0, 30)
 UICorner_14.Parent = TextButton_7
 
 TextButton_8.Parent = ScrollingFrame1
-TextButton_8.BackgroundColor3 = Color3.fromRGB(255, 74, 77)
+TextButton_8.BackgroundColor3 = Color3.fromRGB(178, 255, 142)
 TextButton_8.Position = UDim2.new(0.0319983736, 0, 0.445512772, 0)
 TextButton_8.Size = UDim2.new(0, 348, 0, 30)
 TextButton_8.Font = Enum.Font.SourceSans
@@ -371,7 +375,7 @@ UICorner_15.CornerRadius = UDim.new(0, 30)
 UICorner_15.Parent = TextButton_8
 
 TextButton_9.Parent = ScrollingFrame1
-TextButton_9.BackgroundColor3 = Color3.fromRGB(255, 74, 77)
+TextButton_9.BackgroundColor3 = Color3.fromRGB(255, 255, 127)
 TextButton_9.Position = UDim2.new(0.0319983736, 0, 0.509615362, 0)
 TextButton_9.Size = UDim2.new(0, 348, 0, 30)
 TextButton_9.Font = Enum.Font.SourceSans
@@ -383,7 +387,7 @@ UICorner_16.CornerRadius = UDim.new(0, 30)
 UICorner_16.Parent = TextButton_9
 
 TextButton_10.Parent = ScrollingFrame1
-TextButton_10.BackgroundColor3 = Color3.fromRGB(255, 74, 77)
+TextButton_10.BackgroundColor3 = Color3.fromRGB(255, 255, 127)
 TextButton_10.Position = UDim2.new(0.0319983736, 0, 0.580128193, 0)
 TextButton_10.Size = UDim2.new(0, 348, 0, 30)
 TextButton_10.Font = Enum.Font.SourceSans
@@ -419,7 +423,7 @@ UICorner_19.CornerRadius = UDim.new(0, 30)
 UICorner_19.Parent = TextButton_12
 
 TextButton_13.Parent = ScrollingFrame1
-TextButton_13.BackgroundColor3 = Color3.fromRGB(255, 74, 77)
+TextButton_13.BackgroundColor3 = Color3.fromRGB(255, 255, 127)
 TextButton_13.Position = UDim2.new(0.0374331549, 0, 0.778846145, 0)
 TextButton_13.Size = UDim2.new(0, 348, 0, 30)
 TextButton_13.Font = Enum.Font.SourceSans
@@ -431,7 +435,7 @@ UICorner_20.CornerRadius = UDim.new(0, 30)
 UICorner_20.Parent = TextButton_13
 
 TextButton_14.Parent = ScrollingFrame1
-TextButton_14.BackgroundColor3 = Color3.fromRGB(255, 74, 77)
+TextButton_14.BackgroundColor3 = Color3.fromRGB(178, 255, 142)
 TextButton_14.Position = UDim2.new(0.0347157642, 0, 0.841346145, 0)
 TextButton_14.Size = UDim2.new(0, 348, 0, 30)
 TextButton_14.Font = Enum.Font.SourceSans
@@ -499,7 +503,7 @@ UICorner_24.CornerRadius = UDim.new(0, 30)
 UICorner_24.Parent = TextButton_16
 
 TextButton_17.Parent = ScrollingFrame2
-TextButton_17.BackgroundColor3 = Color3.fromRGB(255, 74, 77)
+TextButton_17.BackgroundColor3 = Color3.fromRGB(217, 0, 255)
 TextButton_17.Position = UDim2.new(0.0374331549, 0, 0.0737179667, 0)
 TextButton_17.Size = UDim2.new(0, 348, 0, 30)
 TextButton_17.Font = Enum.Font.SourceSans
@@ -512,7 +516,7 @@ UICorner_25.Parent = TextButton_17
 
 TextButton_18.Parent = ScrollingFrame2
 TextButton_18.BackgroundColor3 = Color3.fromRGB(255, 74, 77)
-TextButton_18.Position = UDim2.new(0.0347157642, 0, 0.522435844, 0)
+TextButton_18.Position = UDim2.new(0.0374331549, 0, 0.649038374, 0)
 TextButton_18.Size = UDim2.new(0, 348, 0, 30)
 TextButton_18.Font = Enum.Font.SourceSans
 TextButton_18.Text = "Back to menu"
@@ -523,7 +527,7 @@ UICorner_26.CornerRadius = UDim.new(0, 30)
 UICorner_26.Parent = TextButton_18
 
 TextButton_19.Parent = ScrollingFrame2
-TextButton_19.BackgroundColor3 = Color3.fromRGB(255, 74, 77)
+TextButton_19.BackgroundColor3 = Color3.fromRGB(6, 160, 255)
 TextButton_19.Position = UDim2.new(0.0347157642, 0, 0.133012831, 0)
 TextButton_19.Size = UDim2.new(0, 348, 0, 30)
 TextButton_19.Font = Enum.Font.SourceSans
@@ -535,7 +539,7 @@ UICorner_27.CornerRadius = UDim.new(0, 30)
 UICorner_27.Parent = TextButton_19
 
 TextButton_20.Parent = ScrollingFrame2
-TextButton_20.BackgroundColor3 = Color3.fromRGB(255, 74, 77)
+TextButton_20.BackgroundColor3 = Color3.fromRGB(178, 255, 142)
 TextButton_20.Position = UDim2.new(0.0374331549, 0, 0.192307711, 0)
 TextButton_20.Size = UDim2.new(0, 348, 0, 30)
 TextButton_20.Font = Enum.Font.SourceSans
@@ -547,7 +551,7 @@ UICorner_28.CornerRadius = UDim.new(0, 30)
 UICorner_28.Parent = TextButton_20
 
 TextButton_21.Parent = ScrollingFrame2
-TextButton_21.BackgroundColor3 = Color3.fromRGB(255, 74, 77)
+TextButton_21.BackgroundColor3 = Color3.fromRGB(178, 255, 142)
 TextButton_21.Position = UDim2.new(0.0374331549, 0, 0.256410301, 0)
 TextButton_21.Size = UDim2.new(0, 348, 0, 30)
 TextButton_21.Font = Enum.Font.SourceSans
@@ -559,7 +563,7 @@ UICorner_29.CornerRadius = UDim.new(0, 30)
 UICorner_29.Parent = TextButton_21
 
 TextButton_22.Parent = ScrollingFrame2
-TextButton_22.BackgroundColor3 = Color3.fromRGB(255, 74, 77)
+TextButton_22.BackgroundColor3 = Color3.fromRGB(255, 255, 127)
 TextButton_22.Position = UDim2.new(0.0374331549, 0, 0.318910301, 0)
 TextButton_22.Size = UDim2.new(0, 348, 0, 30)
 TextButton_22.Font = Enum.Font.SourceSans
@@ -571,7 +575,7 @@ UICorner_30.CornerRadius = UDim.new(0, 30)
 UICorner_30.Parent = TextButton_22
 
 TextButton_23.Parent = ScrollingFrame2
-TextButton_23.BackgroundColor3 = Color3.fromRGB(255, 74, 77)
+TextButton_23.BackgroundColor3 = Color3.fromRGB(178, 255, 142)
 TextButton_23.Position = UDim2.new(0.0347157642, 0, 0.383012861, 0)
 TextButton_23.Size = UDim2.new(0, 348, 0, 30)
 TextButton_23.Font = Enum.Font.SourceSans
@@ -594,6 +598,30 @@ TextButton_24.TextSize = 25.000
 UICorner_32.CornerRadius = UDim.new(0, 30)
 UICorner_32.Parent = TextButton_24
 
+TextButton_25.Parent = ScrollingFrame2
+TextButton_25.BackgroundColor3 = Color3.fromRGB(255, 74, 77)
+TextButton_25.Position = UDim2.new(0.0347157642, 0, 0.519230843, 0)
+TextButton_25.Size = UDim2.new(0, 348, 0, 30)
+TextButton_25.Font = Enum.Font.SourceSans
+TextButton_25.Text = "Sword"
+TextButton_25.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_25.TextSize = 25.000
+
+UICorner_33.CornerRadius = UDim.new(0, 30)
+UICorner_33.Parent = TextButton_25
+
+TextButton_26.Parent = ScrollingFrame2
+TextButton_26.BackgroundColor3 = Color3.fromRGB(178, 255, 142)
+TextButton_26.Position = UDim2.new(0.0347157642, 0, 0.584935963, 0)
+TextButton_26.Size = UDim2.new(0, 348, 0, 30)
+TextButton_26.Font = Enum.Font.SourceSans
+TextButton_26.Text = "Walk on walls "
+TextButton_26.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_26.TextSize = 25.000
+
+UICorner_34.CornerRadius = UDim.new(0, 30)
+UICorner_34.Parent = TextButton_26
+
 Page2.Name = "Page2"
 Page2.Parent = Frame1
 Page2.BackgroundColor3 = Color3.fromRGB(255, 74, 77)
@@ -604,8 +632,8 @@ Page2.Text = "Page 2"
 Page2.TextColor3 = Color3.fromRGB(0, 0, 0)
 Page2.TextSize = 25.000
 
-UICorner_33.CornerRadius = UDim.new(0, 30)
-UICorner_33.Parent = Page2
+UICorner_35.CornerRadius = UDim.new(0, 30)
+UICorner_35.Parent = Page2
 
 Warning.Name = "Warning"
 Warning.Parent = UTGFrame
@@ -614,8 +642,8 @@ Warning.Position = UDim2.new(1.1299367, 0, 0.286260545, 0)
 Warning.Size = UDim2.new(0, 320, 0, 190)
 Warning.Visible = false
 
-UICorner_34.CornerRadius = UDim.new(0, 30)
-UICorner_34.Parent = Warning
+UICorner_36.CornerRadius = UDim.new(0, 30)
+UICorner_36.Parent = Warning
 
 UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(0.29, Color3.fromRGB(167, 44, 255)), ColorSequenceKeypoint.new(0.49, Color3.fromRGB(226, 62, 255)), ColorSequenceKeypoint.new(0.75, Color3.fromRGB(222, 32, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(122, 105, 255))}
 UIGradient_2.Rotation = 270
@@ -640,8 +668,8 @@ Frame6_2.BackgroundColor3 = Color3.fromRGB(218, 90, 93)
 Frame6_2.Position = UDim2.new(0.888357699, 0, -0.030570548, 0)
 Frame6_2.Size = UDim2.new(0, 57, 0, 52)
 
-UICorner_35.CornerRadius = UDim.new(0, 30)
-UICorner_35.Parent = Frame6_2
+UICorner_37.CornerRadius = UDim.new(0, 30)
+UICorner_37.Parent = Frame6_2
 
 Close_3.Name = "Close"
 Close_3.Parent = Frame6_2
@@ -671,7 +699,7 @@ Close_4.TextWrapped = true
 
 -- Scripts:
 
-local function FISSNH_fake_script() -- Respawn.LocalScript 
+local function EYQW_fake_script() -- Respawn.LocalScript 
 	local script = Instance.new('LocalScript', Respawn)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -679,24 +707,24 @@ local function FISSNH_fake_script() -- Respawn.LocalScript
 	end)
 	
 end
-coroutine.wrap(FISSNH_fake_script)()
-local function MJHLOKC_fake_script() -- Close.LocalScript 
+coroutine.wrap(EYQW_fake_script)()
+local function OCFHF_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(MJHLOKC_fake_script)()
-local function DPIBXC_fake_script() -- Close_2.LocalScript 
+coroutine.wrap(OCFHF_fake_script)()
+local function SKMIKP_fake_script() -- Close_2.LocalScript 
 	local script = Instance.new('LocalScript', Close_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(DPIBXC_fake_script)()
-local function BGDZTM_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(SKMIKP_fake_script)()
+local function GLJH_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -706,88 +734,88 @@ local function BGDZTM_fake_script() -- TextButton.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/Roblox-utg/main/Scythe'))()
 	end)
 end
-coroutine.wrap(BGDZTM_fake_script)()
-local function QBBKA_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(GLJH_fake_script)()
+local function HHAK_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/Roblox-utg/main/ServerAdmin'))()
 	end)
 end
-coroutine.wrap(QBBKA_fake_script)()
-local function QSPZYDD_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(HHAK_fake_script)()
+local function CEFYZG_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://pastebin.com/raw/t2ib971A'))()
 	end)
 end
-coroutine.wrap(QSPZYDD_fake_script)()
-local function MSOTTB_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(CEFYZG_fake_script)()
+local function OJPDA_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/Roblox-utg/main/gravity%20gun'))()
 	end)
 end
-coroutine.wrap(MSOTTB_fake_script)()
-local function CEFU_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(OJPDA_fake_script)()
+local function YLYHBB_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://pastebin.com/raw/exBkZqq4'))()
 	end)
 end
-coroutine.wrap(CEFU_fake_script)()
-local function PFZJRL_fake_script() -- TextButton_6.LocalScript 
+coroutine.wrap(YLYHBB_fake_script)()
+local function OLHYTSG_fake_script() -- TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGetAsync("https://pastebin.com/raw/SyF5t70A"))()
 	end)
 end
-coroutine.wrap(PFZJRL_fake_script)()
-local function CHYVOI_fake_script() -- TextButton_7.LocalScript 
+coroutine.wrap(OLHYTSG_fake_script)()
+local function TTRP_fake_script() -- TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Ne0n2680/Roblox-utg/main/killbot"))()
 	end)
 end
-coroutine.wrap(CHYVOI_fake_script)()
-local function DYEIB_fake_script() -- TextButton_8.LocalScript 
+coroutine.wrap(TTRP_fake_script)()
+local function RNJTCXQ_fake_script() -- TextButton_8.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
 	end)
 end
-coroutine.wrap(DYEIB_fake_script)()
-local function SSTDNXE_fake_script() -- TextButton_9.LocalScript 
+coroutine.wrap(RNJTCXQ_fake_script)()
+local function VMPP_fake_script() -- TextButton_9.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_9)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/o5u3/Selexity/main/Main'),true))()
 	end)
 end
-coroutine.wrap(SSTDNXE_fake_script)()
-local function ADHQCG_fake_script() -- TextButton_10.LocalScript 
+coroutine.wrap(VMPP_fake_script)()
+local function YNUZ_fake_script() -- TextButton_10.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/b289ts36'),true))()
 	end)
 end
-coroutine.wrap(ADHQCG_fake_script)()
-local function XGJXQ_fake_script() -- TextButton_11.LocalScript 
+coroutine.wrap(YNUZ_fake_script)()
+local function QFRKUU_fake_script() -- TextButton_11.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_11)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ONEReverseCard/My-Scripts/main/Netless%20Blind%20Reaper"))()
 	end)
 end
-coroutine.wrap(XGJXQ_fake_script)()
-local function DNGAU_fake_script() -- TextButton_12.LocalScript 
+coroutine.wrap(QFRKUU_fake_script)()
+local function QGDA_fake_script() -- TextButton_12.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_12)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -797,24 +825,24 @@ local function DNGAU_fake_script() -- TextButton_12.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/Roblox-utg/main/titan'))()
 	end)
 end
-coroutine.wrap(DNGAU_fake_script)()
-local function GFKAN_fake_script() -- TextButton_13.LocalScript 
+coroutine.wrap(QGDA_fake_script)()
+local function UFANR_fake_script() -- TextButton_13.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_13)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://pastebin.com/raw/0MLPL32f'))()
 	end)
 end
-coroutine.wrap(GFKAN_fake_script)()
-local function YVIYVZ_fake_script() -- TextButton_14.LocalScript 
+coroutine.wrap(UFANR_fake_script)()
+local function GGMYC_fake_script() -- TextButton_14.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_14)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/Polaris/main/PolarisV1'))()
 	end)
 end
-coroutine.wrap(YVIYVZ_fake_script)()
-local function LYSGHZU_fake_script() -- TextButton_15.LocalScript 
+coroutine.wrap(GGMYC_fake_script)()
+local function GKWA_fake_script() -- TextButton_15.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_15)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -823,8 +851,8 @@ local function LYSGHZU_fake_script() -- TextButton_15.LocalScript
 		script.Parent.Parent.Parent.Page2.Visible = true
 	end)
 end
-coroutine.wrap(LYSGHZU_fake_script)()
-local function QTJBCZI_fake_script() -- Page1.LocalScript 
+coroutine.wrap(GKWA_fake_script)()
+local function VLBQHA_fake_script() -- Page1.LocalScript 
 	local script = Instance.new('LocalScript', Page1)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -834,8 +862,8 @@ local function QTJBCZI_fake_script() -- Page1.LocalScript
 		script.Parent.Parent.ScrollingFrame2.Visible = false
 	end)
 end
-coroutine.wrap(QTJBCZI_fake_script)()
-local function BVGONGV_fake_script() -- TextButton_16.LocalScript 
+coroutine.wrap(VLBQHA_fake_script)()
+local function XFSNW_fake_script() -- TextButton_16.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_16)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -845,8 +873,8 @@ local function BVGONGV_fake_script() -- TextButton_16.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/Roblox-utg/main/downbad'))()
 	end)
 end
-coroutine.wrap(BVGONGV_fake_script)()
-local function XIQLFNY_fake_script() -- TextButton_17.LocalScript 
+coroutine.wrap(XFSNW_fake_script)()
+local function AZAYRGG_fake_script() -- TextButton_17.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_17)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -856,8 +884,8 @@ local function XIQLFNY_fake_script() -- TextButton_17.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/Roblox-utg/main/downbad'))()
 	end)
 end
-coroutine.wrap(XIQLFNY_fake_script)()
-local function PVTMFHB_fake_script() -- TextButton_18.LocalScript 
+coroutine.wrap(AZAYRGG_fake_script)()
+local function IBAYT_fake_script() -- TextButton_18.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_18)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -866,56 +894,75 @@ local function PVTMFHB_fake_script() -- TextButton_18.LocalScript
 		script.Parent.Parent.Parent.Page2.Visible = true
 	end)
 end
-coroutine.wrap(PVTMFHB_fake_script)()
-local function ZINWZVA_fake_script() -- TextButton_19.LocalScript 
+coroutine.wrap(IBAYT_fake_script)()
+local function EEHADD_fake_script() -- TextButton_19.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_19)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()
 	end)
 end
-coroutine.wrap(ZINWZVA_fake_script)()
-local function TVBI_fake_script() -- TextButton_20.LocalScript 
+coroutine.wrap(EEHADD_fake_script)()
+local function UESI_fake_script() -- TextButton_20.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_20)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/Roblox-utg/main/marbe'))()
 	end)
 end
-coroutine.wrap(TVBI_fake_script)()
-local function SOJNCJQ_fake_script() -- TextButton_21.LocalScript 
+coroutine.wrap(UESI_fake_script)()
+local function OMQMOM_fake_script() -- TextButton_21.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_21)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://pastebin.com/raw/zYFiczFe'))()
 	end)
 end
-coroutine.wrap(SOJNCJQ_fake_script)()
-local function IWQSALI_fake_script() -- TextButton_22.LocalScript 
+coroutine.wrap(OMQMOM_fake_script)()
+local function HOHU_fake_script() -- TextButton_22.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_22)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/Roblox-utg/main/Toolanim'))()
 	end)
 end
-coroutine.wrap(IWQSALI_fake_script)()
-local function HJJLUJZ_fake_script() -- TextButton_23.LocalScript 
+coroutine.wrap(HOHU_fake_script)()
+local function SXBIQFD_fake_script() -- TextButton_23.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_23)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGetAsync("https://pastebin.com/raw/Ba5A2mXj"))()
 	end)
 end
-coroutine.wrap(HJJLUJZ_fake_script)()
-local function AQNUM_fake_script() -- TextButton_24.LocalScript 
+coroutine.wrap(SXBIQFD_fake_script)()
+local function JBNM_fake_script() -- TextButton_24.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_24)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Ne0n2680/Roblox-utg/main/ClickKill"))()
 	end)
 end
-coroutine.wrap(AQNUM_fake_script)()
-local function OUXAEVB_fake_script() -- Page2.LocalScript 
+coroutine.wrap(JBNM_fake_script)()
+local function FIRFVB_fake_script() -- TextButton_25.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_25)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Warning.Visible = true
+		wait(4)
+		script.Parent.Parent.Parent.Parent.Warning.Visible = false
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Ne0n2680/Roblox-utg/main/sword", true))()
+	end)
+end
+coroutine.wrap(FIRFVB_fake_script)()
+local function HAWXOVT_fake_script() -- TextButton_26.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_26)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/specowos/scriptsforvideos1/main/walkonwalls.lua", true))()
+	end)
+end
+coroutine.wrap(HAWXOVT_fake_script)()
+local function WYKGSJE_fake_script() -- Page2.LocalScript 
 	local script = Instance.new('LocalScript', Page2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -925,8 +972,8 @@ local function OUXAEVB_fake_script() -- Page2.LocalScript
 		script.Parent.Parent.ScrollingFrame1.Visible = false
 	end)
 end
-coroutine.wrap(OUXAEVB_fake_script)()
-local function ABGE_fake_script() -- UTGFrame.LocalScript 
+coroutine.wrap(WYKGSJE_fake_script)()
+local function MMKX_fake_script() -- UTGFrame.LocalScript 
 	local script = Instance.new('LocalScript', UTGFrame)
 
 	local UIS = game:GetService('UserInputService')
@@ -964,24 +1011,24 @@ local function ABGE_fake_script() -- UTGFrame.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ABGE_fake_script)()
-local function LZCXTSN_fake_script() -- Close_3.LocalScript 
+coroutine.wrap(MMKX_fake_script)()
+local function FHZZ_fake_script() -- Close_3.LocalScript 
 	local script = Instance.new('LocalScript', Close_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		print("I'm to tired to add a close button so no")
 	end)
 end
-coroutine.wrap(LZCXTSN_fake_script)()
-local function ZVBN_fake_script() -- Close_4.LocalScript 
+coroutine.wrap(FHZZ_fake_script)()
+local function FOPQTB_fake_script() -- Close_4.LocalScript 
 	local script = Instance.new('LocalScript', Close_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		print("I'm to tired to add a close button so no")
 	end)
 end
-coroutine.wrap(ZVBN_fake_script)()
-local function FJTBHMD_fake_script() -- UTGFrame.LocalScript 
+coroutine.wrap(FOPQTB_fake_script)()
+local function BYVL_fake_script() -- UTGFrame.LocalScript 
 	local script = Instance.new('LocalScript', UTGFrame)
 
 	local Player = game.Players.LocalPlayer
@@ -994,4 +1041,4 @@ local function FJTBHMD_fake_script() -- UTGFrame.LocalScript
 	end)
 	
 end
-coroutine.wrap(FJTBHMD_fake_script)()
+coroutine.wrap(BYVL_fake_script)()
