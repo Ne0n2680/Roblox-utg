@@ -88,39 +88,41 @@ local TextButton_35 = Instance.new("TextButton")
 local UICorner_36 = Instance.new("UICorner")
 local TextButton_36 = Instance.new("TextButton")
 local UICorner_37 = Instance.new("UICorner")
-local Page1 = Instance.new("TextButton")
+local TextButton_37 = Instance.new("TextButton")
 local UICorner_38 = Instance.new("UICorner")
-local Page2 = Instance.new("TextButton")
+local Page1 = Instance.new("TextButton")
 local UICorner_39 = Instance.new("UICorner")
-local Page3 = Instance.new("TextButton")
+local Page2 = Instance.new("TextButton")
 local UICorner_40 = Instance.new("UICorner")
-local Frame2 = Instance.new("Frame")
+local Page3 = Instance.new("TextButton")
 local UICorner_41 = Instance.new("UICorner")
+local Frame2 = Instance.new("Frame")
+local UICorner_42 = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
 local Frame3 = Instance.new("Frame")
-local UICorner_42 = Instance.new("UICorner")
+local UICorner_43 = Instance.new("UICorner")
 local TextBox = Instance.new("TextBox")
 local Frame4 = Instance.new("Frame")
-local UICorner_43 = Instance.new("UICorner")
+local UICorner_44 = Instance.new("UICorner")
 local TextLabel_2 = Instance.new("TextLabel")
 local Frame5 = Instance.new("Frame")
-local UICorner_44 = Instance.new("UICorner")
+local UICorner_45 = Instance.new("UICorner")
 local Respawn = Instance.new("TextButton")
 local Frame6 = Instance.new("Frame")
-local UICorner_45 = Instance.new("UICorner")
+local UICorner_46 = Instance.new("UICorner")
 local Close = Instance.new("TextButton")
 local Close_2 = Instance.new("TextButton")
 local Warning = Instance.new("Frame")
-local UICorner_46 = Instance.new("UICorner")
+local UICorner_47 = Instance.new("UICorner")
 local UIGradient = Instance.new("UIGradient")
 local TextLabel_3 = Instance.new("TextLabel")
 local Frame6_2 = Instance.new("Frame")
-local UICorner_47 = Instance.new("UICorner")
+local UICorner_48 = Instance.new("UICorner")
 local Close_3 = Instance.new("TextButton")
 local Close_4 = Instance.new("TextButton")
 local ImageLabel = Instance.new("ImageLabel")
 local TitleShade = Instance.new("TextLabel")
-local UICorner_48 = Instance.new("UICorner")
+local UICorner_49 = Instance.new("UICorner")
 local TitleShade_2 = Instance.new("TextLabel")
 local ImageLabel_2 = Instance.new("ImageLabel")
 local ImageLabel_3 = Instance.new("ImageLabel")
@@ -568,7 +570,7 @@ UICorner_32.Parent = TextButton_31
 
 TextButton_32.Parent = ScrollingFrame3
 TextButton_32.BackgroundColor3 = Color3.fromRGB(255, 74, 77)
-TextButton_32.Position = UDim2.new(0.0347157642, 0, 0.336538404, 0)
+TextButton_32.Position = UDim2.new(0.0374331549, 0, 0.395833284, 0)
 TextButton_32.Size = UDim2.new(0, 348, 0, 30)
 TextButton_32.Font = Enum.Font.SourceSans
 TextButton_32.Text = "Back to menu"
@@ -604,7 +606,7 @@ UICorner_35.Parent = TextButton_34
 
 TextButton_35.Parent = ScrollingFrame3
 TextButton_35.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
-TextButton_35.Position = UDim2.new(0.0347157642, 0, 0.264423072, 0)
+TextButton_35.Position = UDim2.new(0.0347157642, 0, 0.267628193, 0)
 TextButton_35.Size = UDim2.new(0, 348, 0, 30)
 TextButton_35.Font = Enum.Font.SourceSans
 TextButton_35.Text = "Stream sniper"
@@ -616,7 +618,7 @@ UICorner_36.Parent = TextButton_35
 
 TextButton_36.Parent = ScrollingFrame3
 TextButton_36.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
-TextButton_36.Position = UDim2.new(0.0265635904, 0, 0.200320512, 0)
+TextButton_36.Position = UDim2.new(0.0374331549, 0, 0.198717952, 0)
 TextButton_36.Size = UDim2.new(0, 348, 0, 30)
 TextButton_36.Font = Enum.Font.SourceSans
 TextButton_36.Text = "Chat remover"
@@ -625,6 +627,18 @@ TextButton_36.TextSize = 25.000
 
 UICorner_37.CornerRadius = UDim.new(0, 30)
 UICorner_37.Parent = TextButton_36
+
+TextButton_37.Parent = ScrollingFrame3
+TextButton_37.BackgroundColor3 = Color3.fromRGB(255, 255, 127)
+TextButton_37.Position = UDim2.new(0.0374331549, 0, 0.333333343, 0)
+TextButton_37.Size = UDim2.new(0, 348, 0, 30)
+TextButton_37.Font = Enum.Font.SourceSans
+TextButton_37.Text = "fe btools"
+TextButton_37.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_37.TextSize = 25.000
+
+UICorner_38.CornerRadius = UDim.new(0, 30)
+UICorner_38.Parent = TextButton_37
 
 Page1.Name = "Page1"
 Page1.Parent = Frame1
@@ -636,8 +650,8 @@ Page1.Text = "Page 1"
 Page1.TextColor3 = Color3.fromRGB(0, 0, 0)
 Page1.TextSize = 25.000
 
-UICorner_38.CornerRadius = UDim.new(0, 30)
-UICorner_38.Parent = Page1
+UICorner_39.CornerRadius = UDim.new(0, 30)
+UICorner_39.Parent = Page1
 
 Page2.Name = "Page2"
 Page2.Parent = Frame1
@@ -649,8 +663,8 @@ Page2.Text = "Page 2"
 Page2.TextColor3 = Color3.fromRGB(0, 0, 0)
 Page2.TextSize = 25.000
 
-UICorner_39.CornerRadius = UDim.new(0, 30)
-UICorner_39.Parent = Page2
+UICorner_40.CornerRadius = UDim.new(0, 30)
+UICorner_40.Parent = Page2
 
 Page3.Name = "Page3"
 Page3.Parent = Frame1
@@ -662,8 +676,8 @@ Page3.Text = "Page 3"
 Page3.TextColor3 = Color3.fromRGB(0, 0, 0)
 Page3.TextSize = 25.000
 
-UICorner_40.CornerRadius = UDim.new(0, 30)
-UICorner_40.Parent = Page3
+UICorner_41.CornerRadius = UDim.new(0, 30)
+UICorner_41.Parent = Page3
 
 Frame2.Name = "Frame2"
 Frame2.Parent = UTGFrame
@@ -671,8 +685,8 @@ Frame2.BackgroundColor3 = Color3.fromRGB(85, 255, 255)
 Frame2.Position = UDim2.new(0.0616598018, 0, 0.833602726, 0)
 Frame2.Size = UDim2.new(0, 374, 0, 24)
 
-UICorner_41.CornerRadius = UDim.new(0, 30)
-UICorner_41.Parent = Frame2
+UICorner_42.CornerRadius = UDim.new(0, 30)
+UICorner_42.Parent = Frame2
 
 TextLabel.Parent = Frame2
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -690,8 +704,8 @@ Frame3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame3.Position = UDim2.new(0.0593178831, 0, 0.904468834, 0)
 Frame3.Size = UDim2.new(0, 245, 0, 35)
 
-UICorner_42.CornerRadius = UDim.new(0, 30)
-UICorner_42.Parent = Frame3
+UICorner_43.CornerRadius = UDim.new(0, 30)
+UICorner_43.Parent = Frame3
 
 TextBox.Parent = Frame3
 TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -711,8 +725,8 @@ Frame4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame4.Position = UDim2.new(0.0616598018, 0, 0.11903578, 0)
 Frame4.Size = UDim2.new(0, 374, 0, 24)
 
-UICorner_43.CornerRadius = UDim.new(0, 30)
-UICorner_43.Parent = Frame4
+UICorner_44.CornerRadius = UDim.new(0, 30)
+UICorner_44.Parent = Frame4
 
 TextLabel_2.Parent = Frame4
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -730,8 +744,8 @@ Frame5.BackgroundColor3 = Color3.fromRGB(0, 208, 111)
 Frame5.Position = UDim2.new(0.670559108, 0, 0.904468834, 0)
 Frame5.Size = UDim2.new(0, 101, 0, 35)
 
-UICorner_44.CornerRadius = UDim.new(0, 30)
-UICorner_44.Parent = Frame5
+UICorner_45.CornerRadius = UDim.new(0, 30)
+UICorner_45.Parent = Frame5
 
 Respawn.Name = "Respawn"
 Respawn.Parent = Frame5
@@ -750,8 +764,8 @@ Frame6.BackgroundColor3 = Color3.fromRGB(218, 90, 93)
 Frame6.Position = UDim2.new(0.888357699, 0, -0.030570548, 0)
 Frame6.Size = UDim2.new(0, 57, 0, 52)
 
-UICorner_45.CornerRadius = UDim.new(0, 30)
-UICorner_45.Parent = Frame6
+UICorner_46.CornerRadius = UDim.new(0, 30)
+UICorner_46.Parent = Frame6
 
 Close.Name = "Close"
 Close.Parent = Frame6
@@ -786,8 +800,8 @@ Warning.Position = UDim2.new(1.1299367, 0, 0.286260545, 0)
 Warning.Size = UDim2.new(0, 320, 0, 190)
 Warning.Visible = false
 
-UICorner_46.CornerRadius = UDim.new(0, 30)
-UICorner_46.Parent = Warning
+UICorner_47.CornerRadius = UDim.new(0, 30)
+UICorner_47.Parent = Warning
 
 UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 255)), ColorSequenceKeypoint.new(0.29, Color3.fromRGB(167, 44, 255)), ColorSequenceKeypoint.new(0.49, Color3.fromRGB(226, 62, 255)), ColorSequenceKeypoint.new(0.75, Color3.fromRGB(222, 32, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(122, 105, 255))}
 UIGradient.Rotation = 270
@@ -812,8 +826,8 @@ Frame6_2.BackgroundColor3 = Color3.fromRGB(218, 90, 93)
 Frame6_2.Position = UDim2.new(0.888357699, 0, -0.030570548, 0)
 Frame6_2.Size = UDim2.new(0, 57, 0, 52)
 
-UICorner_47.CornerRadius = UDim.new(0, 30)
-UICorner_47.Parent = Frame6_2
+UICorner_48.CornerRadius = UDim.new(0, 30)
+UICorner_48.Parent = Frame6_2
 
 Close_3.Name = "Close"
 Close_3.Parent = Frame6_2
@@ -862,8 +876,8 @@ TitleShade.TextColor3 = Color3.fromRGB(0, 0, 0)
 TitleShade.TextSize = 25.000
 TitleShade.TextTransparency = 0.400
 
-UICorner_48.CornerRadius = UDim.new(0, 30)
-UICorner_48.Parent = UTGFrame
+UICorner_49.CornerRadius = UDim.new(0, 30)
+UICorner_49.Parent = UTGFrame
 
 TitleShade_2.Name = "TitleShade"
 TitleShade_2.Parent = UTGFrame
@@ -901,7 +915,7 @@ ImageLabel_4.Image = "http://www.roblox.com/asset/?id=18837738"
 
 -- Scripts:
 
-local function RVNWR_fake_script() -- UTGFrame.LocalScript 
+local function MOHPL_fake_script() -- UTGFrame.LocalScript 
 	local script = Instance.new('LocalScript', UTGFrame)
 
 	local Player = game.Players.LocalPlayer
@@ -914,8 +928,8 @@ local function RVNWR_fake_script() -- UTGFrame.LocalScript
 	end)
 	
 end
-coroutine.wrap(RVNWR_fake_script)()
-local function ZPWFTR_fake_script() -- UTGFrame.LocalScript 
+coroutine.wrap(MOHPL_fake_script)()
+local function MGIUQ_fake_script() -- UTGFrame.LocalScript 
 	local script = Instance.new('LocalScript', UTGFrame)
 
 	local UIS = game:GetService('UserInputService')
@@ -953,8 +967,8 @@ local function ZPWFTR_fake_script() -- UTGFrame.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ZPWFTR_fake_script)()
-local function JMXXFON_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(MGIUQ_fake_script)()
+local function ZSAGZBR_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -964,88 +978,88 @@ local function JMXXFON_fake_script() -- TextButton.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/Roblox-utg/main/Scythe'))()
 	end)
 end
-coroutine.wrap(JMXXFON_fake_script)()
-local function CJZFP_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(ZSAGZBR_fake_script)()
+local function AEKDD_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/Roblox-utg/main/ServerAdmin'))()
 	end)
 end
-coroutine.wrap(CJZFP_fake_script)()
-local function XSCHG_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(AEKDD_fake_script)()
+local function FJFG_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://pastebin.com/raw/t2ib971A'))()
 	end)
 end
-coroutine.wrap(XSCHG_fake_script)()
-local function KKZFFUQ_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(FJFG_fake_script)()
+local function TQGS_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/Roblox-utg/main/gravity%20gun'))()
 	end)
 end
-coroutine.wrap(KKZFFUQ_fake_script)()
-local function MCWSTNQ_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(TQGS_fake_script)()
+local function BWTBXG_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://pastebin.com/raw/exBkZqq4'))()
 	end)
 end
-coroutine.wrap(MCWSTNQ_fake_script)()
-local function ZIXBEJR_fake_script() -- TextButton_6.LocalScript 
+coroutine.wrap(BWTBXG_fake_script)()
+local function PZSI_fake_script() -- TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGetAsync("https://pastebin.com/raw/SyF5t70A"))()
 	end)
 end
-coroutine.wrap(ZIXBEJR_fake_script)()
-local function HLPQOEJ_fake_script() -- TextButton_7.LocalScript 
+coroutine.wrap(PZSI_fake_script)()
+local function MELZVWT_fake_script() -- TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Ne0n2680/Roblox-utg/main/killbot"))()
 	end)
 end
-coroutine.wrap(HLPQOEJ_fake_script)()
-local function RKJHNF_fake_script() -- TextButton_8.LocalScript 
+coroutine.wrap(MELZVWT_fake_script)()
+local function ZVKKGRZ_fake_script() -- TextButton_8.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
 	end)
 end
-coroutine.wrap(RKJHNF_fake_script)()
-local function LLFOB_fake_script() -- TextButton_9.LocalScript 
+coroutine.wrap(ZVKKGRZ_fake_script)()
+local function NKEVLIZ_fake_script() -- TextButton_9.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_9)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/o5u3/Selexity/main/Main'),true))()
 	end)
 end
-coroutine.wrap(LLFOB_fake_script)()
-local function BHPXGY_fake_script() -- TextButton_10.LocalScript 
+coroutine.wrap(NKEVLIZ_fake_script)()
+local function SJJJ_fake_script() -- TextButton_10.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/b289ts36'),true))()
 	end)
 end
-coroutine.wrap(BHPXGY_fake_script)()
-local function QZVK_fake_script() -- TextButton_11.LocalScript 
+coroutine.wrap(SJJJ_fake_script)()
+local function VZHIC_fake_script() -- TextButton_11.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_11)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ONEReverseCard/My-Scripts/main/Netless%20Blind%20Reaper"))()
 	end)
 end
-coroutine.wrap(QZVK_fake_script)()
-local function HCXIKHW_fake_script() -- TextButton_12.LocalScript 
+coroutine.wrap(VZHIC_fake_script)()
+local function YCIDVNF_fake_script() -- TextButton_12.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_12)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1055,24 +1069,24 @@ local function HCXIKHW_fake_script() -- TextButton_12.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/Roblox-utg/main/titan'))()
 	end)
 end
-coroutine.wrap(HCXIKHW_fake_script)()
-local function BGYT_fake_script() -- TextButton_13.LocalScript 
+coroutine.wrap(YCIDVNF_fake_script)()
+local function CEXGQVJ_fake_script() -- TextButton_13.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_13)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://pastebin.com/raw/0MLPL32f'))()
 	end)
 end
-coroutine.wrap(BGYT_fake_script)()
-local function YEEMG_fake_script() -- TextButton_14.LocalScript 
+coroutine.wrap(CEXGQVJ_fake_script)()
+local function YIMFHL_fake_script() -- TextButton_14.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_14)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/Polaris/main/PolarisV1'))()
 	end)
 end
-coroutine.wrap(YEEMG_fake_script)()
-local function FOFETDX_fake_script() -- TextButton_15.LocalScript 
+coroutine.wrap(YIMFHL_fake_script)()
+local function BUUOJ_fake_script() -- TextButton_15.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_15)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1082,8 +1096,8 @@ local function FOFETDX_fake_script() -- TextButton_15.LocalScript
 		script.Parent.Parent.Parent.Page3.Visible = true
 	end)
 end
-coroutine.wrap(FOFETDX_fake_script)()
-local function SRYXDNU_fake_script() -- TextButton_16.LocalScript 
+coroutine.wrap(BUUOJ_fake_script)()
+local function FNYF_fake_script() -- TextButton_16.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_16)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1093,8 +1107,8 @@ local function SRYXDNU_fake_script() -- TextButton_16.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/Roblox-utg/main/downbad'))()
 	end)
 end
-coroutine.wrap(SRYXDNU_fake_script)()
-local function MGPNXK_fake_script() -- TextButton_17.LocalScript 
+coroutine.wrap(FNYF_fake_script)()
+local function DJKUYF_fake_script() -- TextButton_17.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_17)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1104,8 +1118,8 @@ local function MGPNXK_fake_script() -- TextButton_17.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/Roblox-utg/main/downbad'))()
 	end)
 end
-coroutine.wrap(MGPNXK_fake_script)()
-local function TMCNOUL_fake_script() -- TextButton_18.LocalScript 
+coroutine.wrap(DJKUYF_fake_script)()
+local function PTFKNQ_fake_script() -- TextButton_18.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_18)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1115,56 +1129,56 @@ local function TMCNOUL_fake_script() -- TextButton_18.LocalScript
 		script.Parent.Parent.Parent.Page3.Visible = true
 	end)
 end
-coroutine.wrap(TMCNOUL_fake_script)()
-local function LEHSRT_fake_script() -- TextButton_19.LocalScript 
+coroutine.wrap(PTFKNQ_fake_script)()
+local function YNZJX_fake_script() -- TextButton_19.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_19)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()
 	end)
 end
-coroutine.wrap(LEHSRT_fake_script)()
-local function AYIQ_fake_script() -- TextButton_20.LocalScript 
+coroutine.wrap(YNZJX_fake_script)()
+local function QQIJSRU_fake_script() -- TextButton_20.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_20)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/Roblox-utg/main/marbe'))()
 	end)
 end
-coroutine.wrap(AYIQ_fake_script)()
-local function OSPW_fake_script() -- TextButton_21.LocalScript 
+coroutine.wrap(QQIJSRU_fake_script)()
+local function FLNBI_fake_script() -- TextButton_21.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_21)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://pastebin.com/raw/zYFiczFe'))()
 	end)
 end
-coroutine.wrap(OSPW_fake_script)()
-local function JNOAZ_fake_script() -- TextButton_22.LocalScript 
+coroutine.wrap(FLNBI_fake_script)()
+local function KQQR_fake_script() -- TextButton_22.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_22)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/Roblox-utg/main/Toolanim'))()
 	end)
 end
-coroutine.wrap(JNOAZ_fake_script)()
-local function PVKCNP_fake_script() -- TextButton_23.LocalScript 
+coroutine.wrap(KQQR_fake_script)()
+local function WLMIOA_fake_script() -- TextButton_23.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_23)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGetAsync("https://pastebin.com/raw/Ba5A2mXj"))()
 	end)
 end
-coroutine.wrap(PVKCNP_fake_script)()
-local function VDPVEV_fake_script() -- TextButton_24.LocalScript 
+coroutine.wrap(WLMIOA_fake_script)()
+local function VDJFIMT_fake_script() -- TextButton_24.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_24)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Ne0n2680/Roblox-utg/main/ClickKill"))()
 	end)
 end
-coroutine.wrap(VDPVEV_fake_script)()
-local function XJRLQIY_fake_script() -- TextButton_25.LocalScript 
+coroutine.wrap(VDJFIMT_fake_script)()
+local function OSTSS_fake_script() -- TextButton_25.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_25)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1174,16 +1188,16 @@ local function XJRLQIY_fake_script() -- TextButton_25.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Ne0n2680/Roblox-utg/main/sword", true))()
 	end)
 end
-coroutine.wrap(XJRLQIY_fake_script)()
-local function HHLEKM_fake_script() -- TextButton_26.LocalScript 
+coroutine.wrap(OSTSS_fake_script)()
+local function YNJPWFP_fake_script() -- TextButton_26.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_26)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Ne0n2680/Roblox-utg/main/waw", true))()
 	end)
 end
-coroutine.wrap(HHLEKM_fake_script)()
-local function SOKL_fake_script() -- TextButton_27.LocalScript 
+coroutine.wrap(YNJPWFP_fake_script)()
+local function RYBEN_fake_script() -- TextButton_27.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_27)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1193,24 +1207,24 @@ local function SOKL_fake_script() -- TextButton_27.LocalScript
 		loadstring(game:HttpGet("https://pastebin.com/raw/3GfxnfZv", true))()
 	end)
 end
-coroutine.wrap(SOKL_fake_script)()
-local function ULFCZQ_fake_script() -- TextButton_28.LocalScript 
+coroutine.wrap(RYBEN_fake_script)()
+local function ZPQQG_fake_script() -- TextButton_28.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_28)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Ne0n2680/Roblox-utg/main/KillCommand", true))()
 	end)
 end
-coroutine.wrap(ULFCZQ_fake_script)()
-local function MJRNGVQ_fake_script() -- TextButton_29.LocalScript 
+coroutine.wrap(ZPQQG_fake_script)()
+local function GQCJC_fake_script() -- TextButton_29.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_29)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/hf8KqnZm", true))()
 	end)
 end
-coroutine.wrap(MJRNGVQ_fake_script)()
-local function EQQP_fake_script() -- TextButton_30.LocalScript 
+coroutine.wrap(GQCJC_fake_script)()
+local function NMQJFEY_fake_script() -- TextButton_30.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_30)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1220,16 +1234,16 @@ local function EQQP_fake_script() -- TextButton_30.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Ne0n2680/Roblox-utg/main/railgun", true))()
 	end)
 end
-coroutine.wrap(EQQP_fake_script)()
-local function ADORG_fake_script() -- TextButton_31.LocalScript 
+coroutine.wrap(NMQJFEY_fake_script)()
+local function QDFF_fake_script() -- TextButton_31.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_31)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/Roblox-utg/main/necksnap'))()
 	end)
 end
-coroutine.wrap(ADORG_fake_script)()
-local function CLQA_fake_script() -- TextButton_32.LocalScript 
+coroutine.wrap(QDFF_fake_script)()
+local function SYTB_fake_script() -- TextButton_32.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_32)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1239,16 +1253,16 @@ local function CLQA_fake_script() -- TextButton_32.LocalScript
 		script.Parent.Parent.Parent.Page3.Visible = true
 	end)
 end
-coroutine.wrap(CLQA_fake_script)()
-local function TNVD_fake_script() -- TextButton_33.LocalScript 
+coroutine.wrap(SYTB_fake_script)()
+local function XSFUPPD_fake_script() -- TextButton_33.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_33)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGetAsync("https://pastebin.com/raw/2MSTmKBa"))()
 	end)
 end
-coroutine.wrap(TNVD_fake_script)()
-local function XAIPIEY_fake_script() -- TextButton_34.LocalScript 
+coroutine.wrap(XSFUPPD_fake_script)()
+local function JJVMN_fake_script() -- TextButton_34.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_34)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1258,24 +1272,32 @@ local function XAIPIEY_fake_script() -- TextButton_34.LocalScript
 		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Ne0n2680/Roblox-utg/main/soldierai"))()
 	end)
 end
-coroutine.wrap(XAIPIEY_fake_script)()
-local function NVLKL_fake_script() -- TextButton_35.LocalScript 
+coroutine.wrap(JJVMN_fake_script)()
+local function ZEDA_fake_script() -- TextButton_35.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_35)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/Miscellaneous/main/StreamSniper.lua"))()
 	end)
 end
-coroutine.wrap(NVLKL_fake_script)()
-local function IGXZ_fake_script() -- TextButton_36.LocalScript 
+coroutine.wrap(ZEDA_fake_script)()
+local function ZRGF_fake_script() -- TextButton_36.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_36)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Ne0n2680/Roblox-utg/main/chatremover"))()
 	end)
 end
-coroutine.wrap(IGXZ_fake_script)()
-local function ALWPKRX_fake_script() -- Page1.LocalScript 
+coroutine.wrap(ZRGF_fake_script)()
+local function DUVKYKV_fake_script() -- TextButton_37.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_37)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Ne0n2680/Roblox-utg/main/btools(life%20in%20paradise)"))()
+	end)
+end
+coroutine.wrap(DUVKYKV_fake_script)()
+local function FVDCTSN_fake_script() -- Page1.LocalScript 
 	local script = Instance.new('LocalScript', Page1)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1287,8 +1309,8 @@ local function ALWPKRX_fake_script() -- Page1.LocalScript
 		script.Parent.Parent.ScrollingFrame3.Visible = false
 	end)
 end
-coroutine.wrap(ALWPKRX_fake_script)()
-local function PEYM_fake_script() -- Page1.LocalScript 
+coroutine.wrap(FVDCTSN_fake_script)()
+local function EDJHSD_fake_script() -- Page1.LocalScript 
 	local script = Instance.new('LocalScript', Page1)
 
 	local msgs = {
@@ -1307,8 +1329,8 @@ local function PEYM_fake_script() -- Page1.LocalScript
 	end
 	
 end
-coroutine.wrap(PEYM_fake_script)()
-local function THJAJ_fake_script() -- Page2.LocalScript 
+coroutine.wrap(EDJHSD_fake_script)()
+local function KVSLPKX_fake_script() -- Page2.LocalScript 
 	local script = Instance.new('LocalScript', Page2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1320,8 +1342,8 @@ local function THJAJ_fake_script() -- Page2.LocalScript
 		script.Parent.Parent.ScrollingFrame3.Visible = false
 	end)
 end
-coroutine.wrap(THJAJ_fake_script)()
-local function RSNXOE_fake_script() -- Page2.LocalScript 
+coroutine.wrap(KVSLPKX_fake_script)()
+local function AVFXNJV_fake_script() -- Page2.LocalScript 
 	local script = Instance.new('LocalScript', Page2)
 
 	local msgs = {
@@ -1340,8 +1362,8 @@ local function RSNXOE_fake_script() -- Page2.LocalScript
 	end
 	
 end
-coroutine.wrap(RSNXOE_fake_script)()
-local function NNTJ_fake_script() -- Page3.LocalScript 
+coroutine.wrap(AVFXNJV_fake_script)()
+local function TZTIXUP_fake_script() -- Page3.LocalScript 
 	local script = Instance.new('LocalScript', Page3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1353,8 +1375,8 @@ local function NNTJ_fake_script() -- Page3.LocalScript
 		script.Parent.Parent.ScrollingFrame2.Visible = false
 	end)
 end
-coroutine.wrap(NNTJ_fake_script)()
-local function EMWZUG_fake_script() -- Page3.LocalScript 
+coroutine.wrap(TZTIXUP_fake_script)()
+local function QHXIHVG_fake_script() -- Page3.LocalScript 
 	local script = Instance.new('LocalScript', Page3)
 
 	local msgs = {
@@ -1373,8 +1395,8 @@ local function EMWZUG_fake_script() -- Page3.LocalScript
 	end
 	
 end
-coroutine.wrap(EMWZUG_fake_script)()
-local function JBBP_fake_script() -- TextLabel.LocalScript 
+coroutine.wrap(QHXIHVG_fake_script)()
+local function LPUB_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	local msgs = {
@@ -1393,8 +1415,8 @@ local function JBBP_fake_script() -- TextLabel.LocalScript
 	end
 	
 end
-coroutine.wrap(JBBP_fake_script)()
-local function JVTG_fake_script() -- TextBox.LocalScript 
+coroutine.wrap(LPUB_fake_script)()
+local function OHSIS_fake_script() -- TextBox.LocalScript 
 	local script = Instance.new('LocalScript', TextBox)
 
 	local msgs = {
@@ -1413,8 +1435,8 @@ local function JVTG_fake_script() -- TextBox.LocalScript
 	end
 	
 end
-coroutine.wrap(JVTG_fake_script)()
-local function MSVEH_fake_script() -- TextLabel_2.LocalScript 
+coroutine.wrap(OHSIS_fake_script)()
+local function HYYG_fake_script() -- TextLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_2)
 
 	local msgs = {
@@ -1432,8 +1454,8 @@ local function MSVEH_fake_script() -- TextLabel_2.LocalScript
 		wait(10)
 	end
 end
-coroutine.wrap(MSVEH_fake_script)()
-local function XQCTFFC_fake_script() -- Respawn.LocalScript 
+coroutine.wrap(HYYG_fake_script)()
+local function NYRURJ_fake_script() -- Respawn.LocalScript 
 	local script = Instance.new('LocalScript', Respawn)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1441,8 +1463,8 @@ local function XQCTFFC_fake_script() -- Respawn.LocalScript
 	end)
 	
 end
-coroutine.wrap(XQCTFFC_fake_script)()
-local function PVLDWBD_fake_script() -- Respawn.LocalScript 
+coroutine.wrap(NYRURJ_fake_script)()
+local function SPCVD_fake_script() -- Respawn.LocalScript 
 	local script = Instance.new('LocalScript', Respawn)
 
 	local msgs = {
@@ -1461,40 +1483,40 @@ local function PVLDWBD_fake_script() -- Respawn.LocalScript
 	end
 	
 end
-coroutine.wrap(PVLDWBD_fake_script)()
-local function JQHG_fake_script() -- Close.LocalScript 
+coroutine.wrap(SPCVD_fake_script)()
+local function PZLRNL_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(JQHG_fake_script)()
-local function GPOJTL_fake_script() -- Close_2.LocalScript 
+coroutine.wrap(PZLRNL_fake_script)()
+local function ULPM_fake_script() -- Close_2.LocalScript 
 	local script = Instance.new('LocalScript', Close_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(GPOJTL_fake_script)()
-local function RHDKUG_fake_script() -- Close_3.LocalScript 
+coroutine.wrap(ULPM_fake_script)()
+local function VBKDVX_fake_script() -- Close_3.LocalScript 
 	local script = Instance.new('LocalScript', Close_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		print("I'm to tired to add a close button so no")
 	end)
 end
-coroutine.wrap(RHDKUG_fake_script)()
-local function VLUKEJD_fake_script() -- Close_4.LocalScript 
+coroutine.wrap(VBKDVX_fake_script)()
+local function AXWB_fake_script() -- Close_4.LocalScript 
 	local script = Instance.new('LocalScript', Close_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		print("I'm to tired to add a close button so no")
 	end)
 end
-coroutine.wrap(VLUKEJD_fake_script)()
-local function IXZVA_fake_script() -- TitleShade.LocalScript 
+coroutine.wrap(AXWB_fake_script)()
+local function FEWAUIV_fake_script() -- TitleShade.LocalScript 
 	local script = Instance.new('LocalScript', TitleShade)
 
 	local msgs = {
@@ -1515,8 +1537,8 @@ local function IXZVA_fake_script() -- TitleShade.LocalScript
 	
 	
 end
-coroutine.wrap(IXZVA_fake_script)()
-local function ZASF_fake_script() -- TitleShade_2.LocalScript 
+coroutine.wrap(FEWAUIV_fake_script)()
+local function VUSXRB_fake_script() -- TitleShade_2.LocalScript 
 	local script = Instance.new('LocalScript', TitleShade_2)
 
 	local msgs = {
@@ -1534,20 +1556,20 @@ local function ZASF_fake_script() -- TitleShade_2.LocalScript
 	end
 	
 end
-coroutine.wrap(ZASF_fake_script)()
-local function UQVN_fake_script() -- ImageLabel_2.LocalScript 
+coroutine.wrap(VUSXRB_fake_script)()
+local function VUME_fake_script() -- ImageLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel_2)
 
 	local fixSpin = script.Parent
 	
 	fixSpin.Rotation = fixSpin.Rotation + 90
 end
-coroutine.wrap(UQVN_fake_script)()
-local function MLWNJ_fake_script() -- ImageLabel_3.LocalScript 
+coroutine.wrap(VUME_fake_script)()
+local function EKPQ_fake_script() -- ImageLabel_3.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel_3)
 
 	local fixSpin = script.Parent
 	
 	fixSpin.Rotation = fixSpin.Rotation + 90
 end
-coroutine.wrap(MLWNJ_fake_script)()
+coroutine.wrap(EKPQ_fake_script)()
